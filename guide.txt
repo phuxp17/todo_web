@@ -1,0 +1,20 @@
+---Frontend: React+Tailwindcss---
+#Cài react, toaster, lucide, axios
+npm i react-router sonner axios lucide-react
+#Cài tailwindcss
+npm install tailwindcss @tailwindcss/vite
+// hướng dẫn cài tailwindcss: https://tailwindcss.com/docs/installation/using-vite
+#Cài shacdn
+//https://ui.shadcn.com/docs/installation/vite
+|+| Sử dụng javaScript thì làm theo:
+- Tạo một file[jsconfig.json]
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
